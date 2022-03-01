@@ -1,3 +1,8 @@
 :root {
-  --yellow: #f0da12;
+  --kokoa: rgb(46, 29, 3);
+  --gray: #eee;
+  --red: rgb(255, 71, 71);
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --letter-color: #888;
+  --yellow: #ffdc00;
 }

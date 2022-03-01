@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>friends</title>
+    <title>Chat</title>
     <link rel="stylesheet" href="css/screens/style.css">
 </head>
 
@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="chat-status-bar">
-        <h3>친구</h3>
+        <h3>채팅</h3>
         <div class="chat-bar-icons">
             <i class="fa-solid fa-magnifying-glass fa-lg"></i>
             <i class="fa-regular fa-comments fa-lg"></i>
@@ -29,45 +29,32 @@
             <a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a>
         </div>
     </div>
-    <div class="display">
-        <i class="fa-solid fa-circle-info"></i>
-        <span>Friends' Names display</span>
-        <i class="fa-solid fa-chevron-right"></i>
-    </div>
-    <div class="user-component">
-        <div class="user-component__left">
-            <img src="./images/profile.jpg">
-        </div>
-        <div class="user-component__right">Ji-Young</div>
-    </div>
-    <div class="channel">
-        <span>채널</span>
-        <i class="fa-solid fa-chevron-up fa-sm"></i>
-    </div>
-    <div class="friends-screen">
-        <div class="friends-screen__left">
-            <img src="images/channel.jpg">
-            <span>채널</span>
-        </div>
-        <div class="friends-screen__right">
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right fa-sm"></i>
-        </div>
-    </div>
+    <main class="chat-list">
+        <a href="chat.html">
+            <div class="user-image">
+                <img src="./images/image.jpg">
+            </div>
+            <div class="chatting">
+                <span>박지영</span><br>
+                <span>사진을 보냈습니다.</span>
+            </div>
+            <div class="last-time">
+                <span>10:09</span><br>
+                <span>1</span>
+            </div>
+        </a>
+    </main>
     <nav class="nav">
         <ul class="nav__list">
-            <li><a href="./friends.html"><i class="fa-solid fa-user fa-lg"></i></a></li>
+            <li><a href="./friends.html"><i class="fa-regular fa-user fa-lg"></i></a></li>
             <li>
-                <a href="./chatting-list.html"><i class="fa-regular fa-comment fa-lg"></i></a>
+                <a href="./chatting-list.html"><i class="fa-solid fa-comment fa-lg"></i></a>
                 <span class="dot__notify">●</span>
             </li>
             <li><a href="./find.html"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
-            <li><a href="more.html"><i class="fa-solid fa-ellipsis fa-lg"></i></a></li>
+            <li><a href="./more.html"><i class="fa-solid fa-ellipsis fa-lg"></i></a></li>
         </ul>
     </nav>
-    <div id="splash-screen">
-        <i class="fa-solid fa-comment"></i>
-    </div>
     <div id="no-mobile">
         <span>Your Screen is too big ㅠㅠ</span>
     </div>

@@ -1,0 +1,41 @@
+input {
+  border: none;
+  height: 40px;
+  margin: 10px;
+  border-bottom: 2px solid var(--gray);
+}
+button {
+  margin: 8px;
+  padding: 16px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: var(--gray);
+}
+.welcome-kokoa {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 80px;
+  font-weight: 500;
+  color: var(--kokoa);
+}
+.login-detail {
+  margin-top: 26px;
+  text-align: center;
+  color: #999;
+  margin-bottom: 40px;
+}
+.login-form {
+  padding: 30px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.find-account {
+  font-size: 15px;
+  color: var(--kokoa);
+  display: flex;
+  justify-content: center;
+}

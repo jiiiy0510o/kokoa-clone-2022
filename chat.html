@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Screen</title>
+    <link rel="stylesheet" href="css/screens/style.css">
+</head>
+
+<body>
+    <div class="status-bar chat-status-bar">
+        <div class="status-bar-time">
+            <span>10:10</span>
+        </div>
+        <div class="status-bar-signal">
+            <span><i class="fa fa-solid fa-wifi"></i></span>
+            <i class="fa-solid fa-signal"></i>
+            <span>76% <i class="fa-solid fa-battery-three-quarters"></i></span>
+        </div>
+    </div>
+
+    <header class="alt-header chat-header">
+        <div class="alt-header__column"><a href="chatting-list.html">
+                <i class="fa-solid fa-angle-left fa-lg"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <span>쩡</span>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+    </header>
+
+    <div class="chat-screen-bgimage">
+        <main class="main-screen chat-height chat">
+            <div class="chat__timestamp">
+                2022.02.28 월요일
+            </div>
+            <div class="only-message">
+                <div class="message-row">
+                    <img src="http://127.0.0.1:5500/images/profile.jpg">
+                    <div class="message-row__content">
+                        <span class="message__user">쩡</span>
+                        <div class="message__info">
+                            <span class="message__bubble">안녕~</span>
+                            <div class="message__time">14:09</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row message-row--own">
+                    <div class="message-row__content">
+                        <div class="message__info">
+                            <span class="message__bubble">안녕~~ 오랜만이야</span>
+                            <div class="message__time">14:10</div>
+                        </div>
+                        <div class="message__photo">
+                            <img src="./images/cafe.jpg">
+                            <div class="message__time">14:10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="fa-regular fa-square-plus fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="  메세지를 입력해주세요">
+                <div class="reply-emoticon">
+                    <i class="fa-regular fa-face-grin fa-lg"></i>
+                </div>
+                <button>
+                    <i class="fa-solid fa-arrow-up fa-lg"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    <div id="no-mobile">
+        <span>Your Screen is too big ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/06a873e6b2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

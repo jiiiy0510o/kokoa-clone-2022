@@ -1,0 +1,18 @@
+.chat-status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  padding-top: 50px;
+  color: var(--kokoa);
+  background-color: white;
+}
+.chat-status-bar h3 {
+  letter-spacing: 2px;
+}
+.chat-bar-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.chat-bar-icons i {
+  padding: 16px 10px;
+}

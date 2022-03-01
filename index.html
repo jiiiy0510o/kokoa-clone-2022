@@ -4,42 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoa Talk</title>
+    <link rel="stylesheet" href="css/screens/style.css">
 </head>
 
 <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fa fa-solid fa-wifi"></i>
+        <div class="status-bar-time">
+            <span>10:10</span>
         </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>99%</span>
-            <i class="fa fa-solid fa-battery-full fa-lg"></i>
-            <i class="fa fa-solid fa-bolt fa-sm"></i>
+        <div class="status-bar-signal">
+            <span><i class="fa fa-solid fa-wifi"></i></span>
+            <i class="fa-solid fa-signal"></i>
+            <span>76% <i class="fa-solid fa-battery-three-quarters"></i></span>
         </div>
     </div>
-    <header class="welcome-header">
-        <h2 class="welcome-header__title">
-            Welcome to KokoaTalk
-        </h2>
-        <p class="welcome-header__text">
-            If you have a kokoa Account,<br> log in with your email or phone number.
-        </p>
-    </header>
+    <div class="welcome-kokoa">Welcome to Kokoa Talk</div>
+    <div class="login-detail">If you have a Kokoa Account,<br>log in with yout email or phone number.</div>
 
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number">
-        <input name="password" type="password" placeholder="password">
-        <input type="submit" value="Log In">
-        <a href="#">Find kokoa Account or Password</a>
+    <form action="friends.html" class="login-form">
+        <input type="text" placeholder="E- mail or Phone Number">
+        <input type="password" placeholder="password">
+        <button>Log In</button>
+        <button>Sign In</button>
     </form>
-
+    <a href="#" class="find-account">Find Kokoa Account or Password</a>
+    <div id="no-mobile">
+        <span>Your Screen is too big ㅠㅠ</span>
+    </div>
     <script src="https://kit.fontawesome.com/06a873e6b2.js" crossorigin="anonymous"></script>
 </body>
 

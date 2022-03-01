@@ -1,0 +1,95 @@
+.display {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 15px 0;
+}
+.display i {
+  color: #bbb;
+  margin-top: 8px;
+  font-size: 14px;
+}
+.display span {
+  color: var(--kokoa);
+  margin: 5px;
+  font-size: 14px;
+}
+.user-component {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.user-component__left img {
+  width: 68px;
+  border-radius: 26px;
+}
+.user-component__right {
+  padding: 18px 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.channel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  color: #bbb;
+  border-top: var(--main-border);
+}
+.channel span {
+  font-weight: 600;
+  font-size: 13px;
+}
+.channel i {
+  padding-top: 12px;
+}
+.friends-screen {
+  padding: 12px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.friends-screen__left {
+  position: relative;
+  width: 80%;
+}
+.friends-screen__left img {
+  margin-left: 5px;
+  width: 52px;
+  border-radius: 20px;
+}
+.friends-screen__left span {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+}
+.friends-screen__right {
+  margin: 17px;
+  font-size: 14px;
+  color: var(--letter-color);
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 108px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}
